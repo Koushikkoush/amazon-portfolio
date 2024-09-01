@@ -1,0 +1,442 @@
+    *{
+        margin: 0;
+        font-family: arial; 
+        border: border-box;
+
+    }
+    .navbar{
+        height: 60px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        /* come in same line importent */
+        align-items: center;
+        /* center ge baroke melgade enda */
+        justify-content: space-evenly;
+    }
+    .navlogo{
+        height: 50px;
+        width: 100px;
+        display: flex;
+    }
+    .logo{
+        background-image: url(amazon_logo.png);
+        background-size: cover;
+        height: 50px;
+        width: 100%;
+    }
+    .border{
+        border: 1.5px solid transparent;
+        
+    }
+    .border:hover{
+        border: 1.5px solid white;
+        /* mark outside logo */
+    }
+    /* BOX TWO */
+    .adr-first{
+        color: #cccccc;
+        font-size: 0.85rem;
+        /* rem used auto adj agoke */
+        margin-left: 14px;
+        /* gap baroke swalpa */
+    }
+    .adr-second{
+
+        margin-left: 2px;
+    }
+    /* adr and india onde line barbeku andre flex aku */
+    .add-icon{
+        display: flex;
+        align-items: center;
+    }
+
+
+    /* box three */
+    .nav-search{
+        display: flex;
+        justify-content: space-evenly;
+        /* to justify and go to search input alter it */
+        margin-left: 15px;
+        width: 620px;
+        height: 40px;
+        border-radius: 5px;
+        /* background-color: aqua; */
+        background-color:#febd68;
+    }
+
+    .searchselect{
+        background-color: #f3f3f3;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        /* to make border unseen */
+    }
+    .search-input{
+        width: 500px;
+        font-size: 1rem;
+        border: none;
+    }
+    .search-icon{
+        width: 45px;
+        display: flex;
+        /* it horzantly center ge barthe but verticaly center use align center */
+        align-items: center;
+        font-size: 1.2rem;
+        /* icon big madoke */
+        margin-left: 23px;
+        background-color:#febd68;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #0f1111;
+    }
+    .nav-search:hover{
+        border:2px #febd68 ;
+    }
+
+    /* used hover border */
+
+    /* box four */
+    span{
+        font-size: 0.8rem;
+
+    }
+    .nav-second{
+        font-size: 0.85;
+        /* for darkning use font wt */
+        font-weight: 700;
+    }
+    /* box five */
+    .nav-cart i{
+        font-size: 25px;
+    }
+    .nav-cart{
+        font-size: 0.85rem;
+        font-weight: 700;
+    }
+
+    /* panel box */
+    .panel{
+        height: 40px;
+        background-color: #222f3d;
+        display: flex;
+        color: #f3f3f3;
+        /* center ge baroke */
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* paragraph na oneline baroke display inline use madbeku */
+    .panel-opation p{
+        display: inline;
+        /* for space use margin-left */
+        margin-left: 10px;
+    }
+    .panel-opation{
+        width: 70%;
+        /* width dasthi beku aduke eduna use madthsre */
+        font-size: 0.95rem;
+    }
+
+    .panel-deals{
+        font-size:0.9rem;
+        font-weight: 700;
+    }
+
+    /* hero section */
+
+    .hero-section{
+        background-image: url("hero_image.jpg");
+        /* edu kansalla yekendre hight and width kotilla */
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        /* msg bottom ge baroke flex use madidevi */
+        justify-content: center;
+        /* kelgade baroke msg  */
+        align-items: flex-end;
+    }
+
+    .hero-msg{
+        background-color: #f3f3f3;
+        /* make background colour white */
+        color: #0f1111;
+        height: 40px;
+        
+        display: flex;
+        /* vertically center tharoke use align-items:center */
+        align-items: center;
+        /* eduna center tharoke horzontly justify-content:center use madbeku */
+        justify-content: center;
+        font-size: 0.85rem;
+        /* kelgade baroke bottom use madthive */
+        bottom: 25px;
+        /* postion by defoult static so change it position :relative */
+        /* position: relative; */
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    .hero-msg a{
+        color: #007185;
+    }
+
+
+    /* shop section */
+
+    .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        /* yella box onde line ale baroke */
+        justify-content: space-evenly;
+        /* box madya space baroke */
+        background-color: #e2e7e6;
+    }
+
+    .box{
+        border: 2px solid black;
+        height: 400px;
+        width: 23%;
+        border-color:white;
+        /* by inspect we know the padding */
+        padding: 20px 0px 15px;
+        margin: 30px;
+    }
+
+    .box-img{
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .box-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box-content p{
+        color: #007185;
+    }
+    /* copy know */
+
+    /* Add this CSS to style the footer */
+
+    footer {
+        background-color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-content p {
+        margin: 0;
+    }
+
+    .footer-content ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .footer-content ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .footer-content ul li a {
+        text-decoration: none;
+        color: #333;
+    }* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Fix border-box usage */
+        font-family: Arial, sans-serif; /* Improve font family declaration */
+    }
+    
+    .navbar {
+        height: 60px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Better spacing */
+        padding: 0 20px; /* Add padding for better spacing */
+    }
+    
+    .navlogo .logo {
+        background-image: url('amazon_logo.png');
+        background-size: cover;
+        height: 50px;
+        width: 100px;
+    }
+    
+    .adr-first {
+        color: #cccccc;
+        font-size: 0.85rem;
+        margin-left: 14px;
+    }
+    
+    .adr-second {
+        margin-left: 2px;
+    }
+    
+    .add-icon {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-search {
+        display: flex;
+        align-items: center; /* Align items vertically */
+        background-color: #febd68;
+        border-radius: 5px;
+        width: 620px;
+    }
+    
+    .search-select {
+        background-color: #f3f3f3;
+        width: 60px; /* Adjusted width */
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+    }
+    
+    .search-input {
+        width: 500px;
+        font-size: 1rem;
+        border: none;
+    }
+    
+    .search-icon {
+        width: 45px;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #febd68;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #0f1111;
+    }
+    
+    .nav-signin, .nav-return, .nav-cart {
+        display: flex;
+        align-items: center; /* Align items vertically */
+    }
+    
+    .nav-cart i {
+        font-size: 25px;
+    }
+    
+    .panel {
+        height: 40px;
+        background-color: #222f3d;
+        display: flex;
+        color: #f3f3f3;
+        align-items: center;
+        justify-content: space-around; /* Better spacing */
+    }
+    
+    .panel-option p {
+        display: inline;
+        margin-left: 10px;
+    }
+    
+    .panel-deals {
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    
+    .hero-section {
+        background-image: url('hero_image.jpg');
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .hero-msg {
+        background-color: #f3f3f3;
+        color: #0f1111;
+        padding: 10px; /* Adjust padding */
+        text-align: center;
+        font-size: 0.85rem;
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    
+    .hero-msg a {
+        color: #007185;
+    }
+    
+    .shop-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Adjusted for better spacing */
+        background-color: #e2e7e6;
+    }
+    
+    .box {
+        border: 2px solid white;
+        height: 400px;
+        width: 23%;
+        padding: 20px 0 15px;
+        margin: 15px; /* Adjusted margin for better spacing */
+        background-color: #fff; /* Added background color */
+    }
+    
+    .box-img {
+        height: 250px; /* Adjusted height */
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .box-content {
+        text-align: center; /* Center text */
+    }
+    
+    .box-content p {
+        color: #007185;
+    }
+    
+    footer {
+        background-color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-content p {
+        margin: 0;
+        font-size: 0.85rem; /* Adjust font size */
+    }
+    
+    .footer-content ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .footer-content ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .footer-content ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+    
